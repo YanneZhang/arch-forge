@@ -22,3 +22,84 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+.git/
+*.iml
+*.iws
+
+# 但保留代码风格（可选）
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Build / Target
+# ========================
+target/
+build/
+out/
+
+# ========================
+# Maven
+# ========================
+.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# Gradle
+# ========================
+.gradle/
+
+# ========================
+# Environment / config
+# ========================
+.env
+.env.*
+application-local.yml
+application-dev.yml
+
+# ========================
+# Temp files
+# ========================
+*.tmp
+*.swp
+*.swo
+
+# ========================
+# Package files
+# ========================
+*.jar
+*.war
+*.zip
+
+# ========================
+# Test output
+# ========================
+coverage/
+
+# Docker
+*.tar
+
+# Kubernetes
+*.secret.yaml
+
+# Logs
+*.out
+
+# Mac
+*.DS_Store
